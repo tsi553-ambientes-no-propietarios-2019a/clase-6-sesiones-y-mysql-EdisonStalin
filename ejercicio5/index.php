@@ -14,3 +14,38 @@
 * En la página "modificar.php" presentar el formulario que permita modificar la información del alumno seleccionado.
 *
 */
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login</title>
+</head>
+<body>
+     <h1>Estudiante</h1>
+
+    <form action="nuevo.php" method="post">
+    	
+    		
+        <div>
+        <label><i> <b> Nombre: </i> </b></label>
+        <input type="text" name="nombre" placeholder="Nombre">
+        </div>
+        <br>
+        <div>
+        <label><i> <b> Mail: </i> </b></label>
+        <input type="text" name="mail" placeholder="Mail">
+        </div>
+        <br>
+        <div>
+        <label><i> <b> CodigoCurso: </i> </b></label>
+        <input type="numeric" name="codigocurso" placeholder="CodCurso">
+        </div>
+        <br>
+				<button type="submit" class="btn btn-primary"> Ingresar</button>
+		   
+
+    </form>
+</body>
+</html>
