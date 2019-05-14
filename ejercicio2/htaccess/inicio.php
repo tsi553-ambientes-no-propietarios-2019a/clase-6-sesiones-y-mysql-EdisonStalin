@@ -19,7 +19,7 @@ $user = $_POST["usuario"];
     
     </div>
     <div>
-    <a href="../index.php">Cerrar seciónn</a>
+    <a href="../index.php">Cerrar seción</a>
     </div>
 </body>
 </html>
